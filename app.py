@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 N8N_WEBHOOK = "https://jorge-n8n.rijyaf.easypanel.host/webhook/e8fcb585-51c7-42fc-997b-3ceb206b980e"
-SITE_DESTINO = "https://seusite.com"
+SITE_DESTINO = "https://checkout.nenipremios.com.br/?pdv_code=j2777o"
 
 @app.route("/track/<phone>")
 def track(phone):
